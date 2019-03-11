@@ -20,7 +20,9 @@ comments: true
 | [IDEONE](https://ideone.com) | Online | 간단한 온라인 개발환경 |
 
 ## Dev-C++의 구성과 설정
+
 | 단축키 | 기능 |
+| :-- | :-- |
 | Ctrl + N | 새 파일 생성 |
 | Ctrl + W | 현재 파일 종료 |
 | Ctrl + S | 현재 파일 저장 |
