@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Lucas S.W. Park. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I am a student developer in Daedeok Software Meister High School
+- I'm studying to be a polyglot.
+- I like science and math.
 
 What else do you need?
 
-### my history
+### Bio
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- La granda vero, disvolvita saĝo kaj konstanta lernado devu esti mia lumo. Ankaŭ mi estas nomita 建學 朴秀爀 kaj 건학 박수혁.
+- The great truth, developed wisdom and constant learning must be my light. I'm also called 建學 朴秀爀 and 건학 박수혁.
