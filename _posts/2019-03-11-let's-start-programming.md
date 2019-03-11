@@ -39,7 +39,7 @@ comments: true
 ## Hello, [DSM](https://dsmhs.djsch.kr)!
 새 언어에 입문하는 개발자들이 제일 먼저 작성하는 코드는 바로 Hello World!일 것이다. 이때 소스코드 파일을 저장할 경우 파일명의 앞부분에 인덱스(Index) 숫자를 붙이는 것이 좋다.
 
-- **01 Hello DSM.c**
+### 01-HelloDSM.c
 {% highlight C linenos %}
 #include <stdio.h>
 
@@ -55,11 +55,11 @@ int main() {
 #include <stdio.h> // 전처리문
 
 int main() { // main 함수 시작
-    	// 코드 작성 시작
-	printf("Hello, DSM!\n"); // 문자열 화면표기 // 코드종료
-	return 0; // return 구문
-	// 코드 작성 종료
-} // 함수 종결
+    // 코드 작성 시작
+    printf("Hello, DSM!\n"); // 문자열 화면표기 // 코드종료
+    return 0; // return 구문
+    // 코드 작성 종료
+}   // 함수 종결
 {% endhighlight %}
 
 - 전처리문
@@ -80,23 +80,25 @@ int main() { // main 함수 시작
    - 개행문자로, 커서를 해당 줄 아래로 이동시킨다.
 
 ## The Usage of Escape Sequence
-1. 시작하기 전에 아래 코드를 실행해 보자.
-{% highlight C lineos %}
+### 02-Alert.c
+시작하기 전에 아래 코드를 실행해 보자.
+{% highlight C linenos %}
 #include <stdio.h>
 
 int main() {
-	printf("Alert!!! \a");
-	return 0;
-	\b \n \r \t \v \\ \' \'' \?
+    printf("Alert!!! \a");
+    return 0;
 }
 {% endhighlight %}
 
 [경고 소리](https://www.youtube.com/watch?v=MwTcBIqkrsI)가 나는 것을 확인할 수 있을 것이다.
 
 {: .box-note}
-**Note:** 왜 경고 소리가 나는 것일까?
+**Question:** 왜 경고 소리가 나는 것일까?
 
-### Notification
+### Code Debugging
+**\a**는 이스케이프 시퀀스(Escape Sequence)이다. 02-Alert.c 
+\b \n \r \t \v \\ \' \'' \?
 
 {: .box-note}
 **Note:** This is a notification box.
