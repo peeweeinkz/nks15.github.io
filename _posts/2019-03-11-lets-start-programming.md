@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Let's start programming!
+subtitle: First class: Concept, IDE, Dev-C++, Hello World, Escape Sequence
 date: 2019-03-11 11:30:30
 tags: [Class Records Report]
 comments: true
@@ -12,7 +13,7 @@ comments: true
 **프로그래밍**이란 컴퓨터에게 논리적으로 명령을 내리기 위한 과정이다. 그렇다고 해서 아무렇게나 할 수는 없지 않는가. 그렇기에 우리는 먼저 프로그래밍을 하는 방법을 익혀야 한다.
 
 ## The Integrated Development Environment
-먼저 프로그래밍은 적당한 환경만 주어진다면 언제 어디서나 할 수 있지만, 대부분은 **IDE(Integrated Development Environment, 통합 개발 환경)** 을 주로 사용할 것이다. 아래는 프로그래밍 수업에서 사용하는 주 IDE를 나열한 표이다.
+프로그래밍은 적당한 환경만 주어진다면 언제 어디서나 할 수 있지만, 대부분은 **IDE(Integrated Development Environment, 통합 개발 환경)** 을 주로 사용할 것이다. 아래는 프로그래밍 수업에서 사용하는 주 IDE를 나열한 표이다.
 
 | 명칭 | 구분 | 기능 |
 | :-- | :-- | :-- |
@@ -93,8 +94,9 @@ int main() {
 }
 {% endhighlight %}
 
-[경고 소리](https://www.youtube.com/watch?v=MwTcBIqkrsI)가 나는 것을 확인할 수 있을 것이다.
 {: .box-note}
+[경고 소리](https://www.youtube.com/watch?v=MwTcBIqkrsI)가 나는 것을 확인할 수 있을 것이다.
+
 **Question:** 왜 경고 소리가 나는 것일까?
 
 ### Code Debugging
