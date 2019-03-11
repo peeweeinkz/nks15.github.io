@@ -36,31 +36,39 @@ comments: true
 | Ctrl + X | 선택된 내용 잘라내기 |
 | Ctrl + V | 선택된 내용 붙여넣기 |
 
-## Hello, World!
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+- 소스코드 파일을 저장할 경우 파일명의 앞부분에 인덱스(Index) 숫자를 붙이는 것이 좋다.
 
-And here is the same code with syntax highlighting:
+## Hello, [DSM](https://dsmhs.djsch.kr)!
+새 언어에 입문하는 개발자들이 제일 먼저 작성하는 코드는 바로 Hello World!일 것이다.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
+- **01 Hello DSM.c**
+```c
+#include <stdio.h>
+
+int main() {
+	printf("Hello, DSM!\n");
+	return 0;
 }
-foo(3)
 ```
 
-And here is the same code yet again but with line numbers:
+그리고 아래는 해당 코드에 주석으로 각 코드의 역할을 표기한 것이다.
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+```c
+#include <stdio.h> // 전처리문
+
+int main() { // main 함수의 시작
+    // 코드 작성 시작
+	printf("Hello, DSM!\n"); // 문자열 화면표기 // 코드종료
+	return 0; // return 구문은 특정 값을 반환하며, 0은 작업이 성공적으로 종료되었다는 것을 나타낸다."
+	// 리눅스/유닉스 OS에서 'init 0'은 시스템을 재부팅시키는 명령이다.
+	// 코드 작성 종료
+} // 함수 종결
+```
+- 전처리문: #이 들어간 문장은 전(前)처리된다. #를 사용하는 이유는 키보드에 할당된 기타 특수문자보다 사용 빈도가 낮았기 때문이다.
+- main 함수의 시작: {}는 스코프(Scope)라고 하며, 함수의 영역을 표시한다. 스코프 안에서 모든 코드가 시작되고 종결된다.
+- 문자열 화면표기문: printf() 함수는 문자열을 화면에 표기하는 함수이다. 문자열은 따옴표(")로 묶게 된다.
+- 코드종료: 모든 명령 코드는 세미콜론(;)으로 종결된다.
+- \n: 개행문자로, 커서를 해당 줄 아래로 이동시킨다.
 
 ## Boxes
 You can add notification, warning and error boxes like this:
@@ -79,3 +87,11 @@ You can add notification, warning and error boxes like this:
 
 {: .box-error}
 **Error:** This is an error box.
+
+#include <stdio.h>
+
+int main() {
+	printf("Alert!!! \a"); // 이스케이프 시퀀스: 원래 의미를 벗어난 사용용례이므로 Escape, \a와 a는 다르다. 
+	return 0;
+	\b \n \r \t \v \\ \' \'' \?
+}
