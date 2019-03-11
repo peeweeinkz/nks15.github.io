@@ -17,30 +17,19 @@ comments: true
 | 명칭 | 구분 | 기능 |
 | :-- | :-- | :-- |
 | [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) | Offline | 완전한 통합개발환경 |
-| [DEONE](ideone.com) | Online | 간단한 온라인 개발환경 |
+| [IDEONE](https://ideone.com) | Online | 간단한 온라인 개발환경 |
 
-
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
+## Dev-C++의 구성과 설정
+| 단축키 | 기능 |
+| Ctrl + N | 새 파일 생성 |
+| Ctrl + W | 현재 파일 종료 |
+| Ctrl + S | 현재 파일 저장 |
+| Ctrl + E | 현재 라인에서 새 라인 추가 |
+| Ctrl + D | 현재 라인부터 라인 삭제 |
+| Ctrl + A | 내용 전체 선택 |
+| Ctrl + C | 선택된 내용 복사 |
+| Ctrl + X | 선택된 내용 잘라내기 |
+| Ctrl + V | 선택된 내용 붙여넣기 |
 
 ~~~
 var foo = function(x) {
