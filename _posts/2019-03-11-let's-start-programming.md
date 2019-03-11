@@ -42,14 +42,14 @@ comments: true
 새 언어에 입문하는 개발자들이 제일 먼저 작성하는 코드는 바로 Hello World!일 것이다.
 
 - **01 Hello DSM.c**
-```
+{% highlight C linenos %}
 #include <stdio.h>
 
 int main() {
 	printf("Hello, DSM!\n");
 	return 0;
 }
-```
+{% endhighlight %}
 
 그리고 아래는 해당 코드에 주석으로 각 코드의 역할을 표기한 것이다.
 
