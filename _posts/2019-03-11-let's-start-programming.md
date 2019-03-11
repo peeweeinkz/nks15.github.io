@@ -92,25 +92,21 @@ int main() {
 {% endhighlight %}
 
 [경고 소리](https://www.youtube.com/watch?v=MwTcBIqkrsI)가 나는 것을 확인할 수 있을 것이다.
-
 {: .box-note}
 **Question:** 왜 경고 소리가 나는 것일까?
 
 ### Code Debugging
-**\a**는 이스케이프 시퀀스(Escape Sequence)이다. 02-Alert.c 
-\b \n \r \t \v \\ \' \'' \?
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
+**\a**는 이스케이프 시퀀스(Escape Sequence)이다. 이스케이프 시퀀스는 문자열 내에서 사용되었을 때 자기 자신을 나타내지 않고, 특정한 문자나 기능을 재현하게 된다. 이스케이프 시퀀스의 종류에는 다음과 같은 것들이 있다:
+| 이스케이프 시퀀스 | 의미 | 기능 |
+| :-- | :-- | :-- |
+| \a | Alert | 경고음 재생 |
+| \b | Backspace | 백스페이스 |
+| \n | New line | 개행 |
+| \r | Carriage Return | 전문(前文) 이동  |
+| \t | Horizontal Tab | 수평 탭 |
+| \v | Vertical Tab | 수직 탭 |
+| \\ | Backslash | \ |
+| \' | Apostrophe | ' |
+| \" | Double Apostrophe | " |
+| \? | Question mark | ?  |
 
