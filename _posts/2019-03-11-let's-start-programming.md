@@ -7,8 +7,15 @@ comments: true
 ---
 
 ## 프로그래밍의 개념
-**프로그래밍**이란 컴퓨터에게 논리적으로 명령을 내리기 위한 과정이다. 그렇다고 해서 아무렇게나 할 수는 없지 않는가. 그렇기에 우리는 먼저 프로그래밍을 하는 방법을 익혀야 한다. 먼저 프로그래밍은 적당한 환경만 주어진다면 언제 어디서나 할 수 있지만, 주로 **IDE(Integrated Development Environment, 통합 개발 환경)**을 사용할 것이다.
+![programming_banner](https://www.valuecoders.com/blog/wp-content/uploads/2017/09/11-Top-Programming-Trends-To-Look-For-In-20172.jpg)
+**프로그래밍**이란 컴퓨터에게 논리적으로 명령을 내리기 위한 과정이다. 그렇다고 해서 아무렇게나 할 수는 없지 않는가. 그렇기에 우리는 먼저 프로그래밍을 하는 방법을 익혀야 한다.
 
+## IDE의 개념과 종류
+먼저 프로그래밍은 적당한 환경만 주어진다면 언제 어디서나 할 수 있지만, 대부분은 **IDE(Integrated Development Environment, 통합 개발 환경)** 을 주로 사용할 것이다.
+| 명칭 | 구분 | 기능 |
+| :-- | :-- | :-- |
+| [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) | Offline | 완전한 통합개발환경
+| [DEONE](ideone.com) | Online | 간단한 온라인 개발환경
 
 
 You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
