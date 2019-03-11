@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Let's start programming!
-subtitle: First class: Concept, IDE, Dev-C++, Hello World, Escape Sequence
+subtitle: First class - Concept, IDE, Dev-C++, Hello World, Escape Sequence
 date: 2019-03-11 11:30:30
 tags: [Class Records Report]
 comments: true
