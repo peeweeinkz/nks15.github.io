@@ -2,7 +2,7 @@
 layout: post
 title: Let's start programming!
 date: 2019-03-11 11:30:30
-tags: [수업기록보고서]
+tags: [Class Records Report]
 comments: true
 ---
 
